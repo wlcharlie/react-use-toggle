@@ -1,6 +1,6 @@
 {
   "name": "@build-own-hooks/use-toggle",
-  "version": "1.0.8",
+  "version": "1.1.1",
   "description": "A hook to toggle state between true and false",
   "keywords": [
     "react",
@@ -14,14 +14,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependencies": {
-    "react": ">=17.0.0",
-    "react-dom": ">=17.0.0"
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wlcharlie/react-use-toggle.git"
   },
-  "homepage": "https://github.com/wlcharlie/react-use-toggle",
-  "license": "ISC"
+  "homepage": "https://github.com/wlcharlie/react-use-toggle#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0"
+  }
 }
